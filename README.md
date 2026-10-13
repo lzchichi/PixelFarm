@@ -7,7 +7,7 @@
 已在 Node.js 20.14.0、npm 10.7.0 环境验证。使用 Phaser 3、TypeScript strict、Vite 6 与 Vitest 3；精确依赖版本记录在 `package-lock.json`。
 
 ```powershell
-cd D:\code\ChatGPT\1
+cd D:\code\ChatGPT\PixelFarm
 npm ci
 npm run dev
 ```
