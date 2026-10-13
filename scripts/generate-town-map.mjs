@@ -1,0 +1,34 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const art = JSON.parse(await readFile(new URL('../src/data/art-manifest.json', import.meta.url), 'utf8'));
+const farmPath = new URL('../public/assets/maps/farm.json', import.meta.url);
+const farm = JSON.parse(await readFile(farmPath, 'utf8'));
+const portal = farm.layers.find(l => l.name === 'Interactions').objects.find(o => o.name === 'farm-sign' || o.name === 'farm-to-town');
+portal.name = 'farm-to-town'; portal.properties.find(p => p.name === 'label').value = '前往青芽村';
+portal.properties.find(p => p.name === 'message').value = '沿着小路前往青芽村。';
+await writeFile(farmPath, JSON.stringify(farm)+'\n');
+const ground = Array(2400).fill(1);
+const area = (x,y,w,h,gid) => {for(let row=y;row<y+h;row++)for(let col=x;col<x+w;col++)ground[row*60+col]=gid;};
+area(18,24,31,9,4); area(21,20,3,18,4); area(33,20,3,8,4); area(43,20,3,8,4); area(27,25,12,7,6);
+let id=1;
+const prop=(name,value)=>({name,type:typeof value==='number'?'int':'string',value});
+const obj=(name,type,x,y,w=0,h=0,properties=[])=>({id:id++,name,type,x,y,width:w,height:h,rotation:0,visible:true,properties});
+const scenery=[obj('村庄入口','spawn',704,1008)], collisions=[], interactions=[];
+function place(asset,kind,x,y,foot,interaction,label){
+ const a=art.objects[asset];
+ if(kind==='tree')foot=[Math.round(a.width*.39),Math.round(a.height*.65),Math.round(a.width*.22),Math.round(a.height*.27)];
+ scenery.push(obj(asset,kind,x,y,a.width,a.height,[prop('asset',asset),prop('depthAnchor',foot[1]+foot[3])]));
+ const [dx,dy,w,h]=foot; collisions.push(obj(asset+'-solid','solid',x+dx,y+dy,w,h));
+ if(interaction)interactions.push(obj(interaction,'interaction',x+dx,y+dy,w,h,[prop('label',label),prop('message',label)]));
+}
+place('town-shop','cabin',608,448,[30,120,186,68],'town-shop','艾米的种子铺');
+place('town-workshop','cabin',1008,448,[24,120,176,70],'town-workshop','托马斯的工坊');
+place('town-cottage','cabin',1320,448,[28,120,180,68],'town-cottage','莉娜的小屋');
+place('town-board','sign',760,808,[6,60,84,32],'town-board','村庄公告栏 · 每日委托');
+place('log-moss','rock',1060,760,[15,16,56,16],'town-wood','收集落木');
+place('rock-cluster','rock',1280,856,[12,20,54,20],'town-stone','收集碎石');
+place('sign','sign',640,1056,[22,35,16,10],'town-to-farm','返回青芽农场');
+for(const [x,y] of [[400,360],[1600,352],[448,824],[1540,960],[528,1040]])place('tree-oak','tree',x,y,[60,135,42,48]);
+const group=(id,name,objects)=>({id,name,type:'objectgroup',draworder:'topdown',x:0,y:0,visible:true,opacity:1,objects});
+const map={...farm,width:60,height:40,nextobjectid:id,layers:[{...farm.layers[0],width:60,height:40,data:ground},group(2,'Scenery',scenery),group(3,'Collisions',collisions),group(4,'Interactions',interactions)]};
+await writeFile(new URL('../public/assets/maps/town.json',import.meta.url),JSON.stringify(map)+'\n');
+console.log('Generated village with supplied buildings, board and data-driven collision shapes.');

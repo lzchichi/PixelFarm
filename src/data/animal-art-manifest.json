@@ -1,0 +1,825 @@
+{
+  "source": "animals.png",
+  "sha256": "29c0fc87e07102a447b247d26807c431d844114d1073eefd86e499eba5b22df9",
+  "assets": {
+    "chicken-down-0": {
+      "path": "assets/art/game/animals/chicken-down-0.png",
+      "bounds": [
+        218,
+        0,
+        330,
+        116
+      ],
+      "scaledSize": [
+        30,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        11,
+        9
+      ]
+    },
+    "chicken-down-1": {
+      "path": "assets/art/game/animals/chicken-down-1.png",
+      "bounds": [
+        354,
+        0,
+        467,
+        116
+      ],
+      "scaledSize": [
+        31,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        10,
+        9
+      ]
+    },
+    "chicken-down-2": {
+      "path": "assets/art/game/animals/chicken-down-2.png",
+      "bounds": [
+        476,
+        0,
+        583,
+        116
+      ],
+      "scaledSize": [
+        29,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        11,
+        9
+      ]
+    },
+    "chicken-down-3": {
+      "path": "assets/art/game/animals/chicken-down-3.png",
+      "bounds": [
+        610,
+        0,
+        708,
+        116
+      ],
+      "scaledSize": [
+        26,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        13,
+        9
+      ]
+    },
+    "chicken-left-0": {
+      "path": "assets/art/game/animals/chicken-left-0.png",
+      "bounds": [
+        236,
+        116,
+        341,
+        229
+      ],
+      "scaledSize": [
+        28,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        12,
+        9
+      ]
+    },
+    "chicken-left-1": {
+      "path": "assets/art/game/animals/chicken-left-1.png",
+      "bounds": [
+        355,
+        116,
+        469,
+        229
+      ],
+      "scaledSize": [
+        31,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        10,
+        9
+      ]
+    },
+    "chicken-left-2": {
+      "path": "assets/art/game/animals/chicken-left-2.png",
+      "bounds": [
+        478,
+        116,
+        601,
+        229
+      ],
+      "scaledSize": [
+        33,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        9,
+        9
+      ]
+    },
+    "chicken-left-3": {
+      "path": "assets/art/game/animals/chicken-left-3.png",
+      "bounds": [
+        602,
+        116,
+        712,
+        229
+      ],
+      "scaledSize": [
+        30,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        11,
+        9
+      ]
+    },
+    "chicken-right-0": {
+      "path": "assets/art/game/animals/chicken-right-0.png",
+      "bounds": [
+        224,
+        229,
+        338,
+        341
+      ],
+      "scaledSize": [
+        31,
+        30
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        10,
+        10
+      ]
+    },
+    "chicken-right-1": {
+      "path": "assets/art/game/animals/chicken-right-1.png",
+      "bounds": [
+        357,
+        229,
+        468,
+        341
+      ],
+      "scaledSize": [
+        30,
+        30
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        11,
+        10
+      ]
+    },
+    "chicken-right-2": {
+      "path": "assets/art/game/animals/chicken-right-2.png",
+      "bounds": [
+        482,
+        229,
+        597,
+        341
+      ],
+      "scaledSize": [
+        31,
+        30
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        10,
+        10
+      ]
+    },
+    "chicken-right-3": {
+      "path": "assets/art/game/animals/chicken-right-3.png",
+      "bounds": [
+        602,
+        229,
+        725,
+        341
+      ],
+      "scaledSize": [
+        33,
+        30
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        9,
+        10
+      ]
+    },
+    "chicken-up-0": {
+      "path": "assets/art/game/animals/chicken-up-0.png",
+      "bounds": [
+        230,
+        341,
+        325,
+        458
+      ],
+      "scaledSize": [
+        26,
+        32
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        13,
+        8
+      ]
+    },
+    "chicken-up-1": {
+      "path": "assets/art/game/animals/chicken-up-1.png",
+      "bounds": [
+        355,
+        341,
+        471,
+        462
+      ],
+      "scaledSize": [
+        31,
+        33
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        10,
+        7
+      ]
+    },
+    "chicken-up-2": {
+      "path": "assets/art/game/animals/chicken-up-2.png",
+      "bounds": [
+        482,
+        341,
+        583,
+        456
+      ],
+      "scaledSize": [
+        27,
+        31
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        12,
+        9
+      ]
+    },
+    "chicken-up-3": {
+      "path": "assets/art/game/animals/chicken-up-3.png",
+      "bounds": [
+        608,
+        341,
+        710,
+        462
+      ],
+      "scaledSize": [
+        28,
+        33
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        12,
+        7
+      ]
+    },
+    "cow-down-0": {
+      "path": "assets/art/game/animals/cow-down-0.png",
+      "bounds": [
+        182,
+        466,
+        330,
+        608
+      ],
+      "scaledSize": [
+        44,
+        43
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        18,
+        9
+      ]
+    },
+    "cow-down-1": {
+      "path": "assets/art/game/animals/cow-down-1.png",
+      "bounds": [
+        330,
+        463,
+        477,
+        608
+      ],
+      "scaledSize": [
+        44,
+        44
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        18,
+        8
+      ]
+    },
+    "cow-down-2": {
+      "path": "assets/art/game/animals/cow-down-2.png",
+      "bounds": [
+        477,
+        468,
+        631,
+        608
+      ],
+      "scaledSize": [
+        46,
+        42
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        17,
+        10
+      ]
+    },
+    "cow-down-3": {
+      "path": "assets/art/game/animals/cow-down-3.png",
+      "bounds": [
+        631,
+        463,
+        807,
+        608
+      ],
+      "scaledSize": [
+        53,
+        44
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        13,
+        8
+      ]
+    },
+    "cow-left-0": {
+      "path": "assets/art/game/animals/cow-left-0.png",
+      "bounds": [
+        178,
+        608,
+        330,
+        738
+      ],
+      "scaledSize": [
+        46,
+        39
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        17,
+        13
+      ]
+    },
+    "cow-left-1": {
+      "path": "assets/art/game/animals/cow-left-1.png",
+      "bounds": [
+        330,
+        608,
+        477,
+        738
+      ],
+      "scaledSize": [
+        44,
+        39
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        18,
+        13
+      ]
+    },
+    "cow-left-2": {
+      "path": "assets/art/game/animals/cow-left-2.png",
+      "bounds": [
+        477,
+        608,
+        631,
+        738
+      ],
+      "scaledSize": [
+        46,
+        39
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        17,
+        13
+      ]
+    },
+    "cow-left-3": {
+      "path": "assets/art/game/animals/cow-left-3.png",
+      "bounds": [
+        631,
+        608,
+        807,
+        738
+      ],
+      "scaledSize": [
+        53,
+        39
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        13,
+        13
+      ]
+    },
+    "cow-right-0": {
+      "path": "assets/art/game/animals/cow-right-0.png",
+      "bounds": [
+        174,
+        738,
+        330,
+        852
+      ],
+      "scaledSize": [
+        47,
+        34
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        16,
+        18
+      ]
+    },
+    "cow-right-1": {
+      "path": "assets/art/game/animals/cow-right-1.png",
+      "bounds": [
+        330,
+        738,
+        477,
+        852
+      ],
+      "scaledSize": [
+        44,
+        34
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        18,
+        18
+      ]
+    },
+    "cow-right-2": {
+      "path": "assets/art/game/animals/cow-right-2.png",
+      "bounds": [
+        477,
+        738,
+        631,
+        852
+      ],
+      "scaledSize": [
+        46,
+        34
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        17,
+        18
+      ]
+    },
+    "cow-right-3": {
+      "path": "assets/art/game/animals/cow-right-3.png",
+      "bounds": [
+        631,
+        738,
+        807,
+        852
+      ],
+      "scaledSize": [
+        53,
+        34
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        13,
+        18
+      ]
+    },
+    "cow-up-0": {
+      "path": "assets/art/game/animals/cow-up-0.png",
+      "bounds": [
+        186,
+        852,
+        309,
+        977
+      ],
+      "scaledSize": [
+        37,
+        38
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        21,
+        14
+      ]
+    },
+    "cow-up-1": {
+      "path": "assets/art/game/animals/cow-up-1.png",
+      "bounds": [
+        353,
+        852,
+        467,
+        977
+      ],
+      "scaledSize": [
+        34,
+        38
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        23,
+        14
+      ]
+    },
+    "cow-up-2": {
+      "path": "assets/art/game/animals/cow-up-2.png",
+      "bounds": [
+        509,
+        852,
+        613,
+        977
+      ],
+      "scaledSize": [
+        31,
+        38
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        24,
+        14
+      ]
+    },
+    "cow-up-3": {
+      "path": "assets/art/game/animals/cow-up-3.png",
+      "bounds": [
+        636,
+        852,
+        807,
+        977
+      ],
+      "scaledSize": [
+        51,
+        38
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        14,
+        14
+      ]
+    },
+    "chicken-feed": {
+      "path": "assets/art/game/animals/chicken-feed.png",
+      "bounds": [
+        802,
+        0,
+        949,
+        124
+      ],
+      "scaledSize": [
+        40,
+        33
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        6,
+        7
+      ]
+    },
+    "chicken-rest": {
+      "path": "assets/art/game/animals/chicken-rest.png",
+      "bounds": [
+        978,
+        0,
+        1128,
+        130
+      ],
+      "scaledSize": [
+        40,
+        35
+      ],
+      "canvasSize": [
+        52,
+        40
+      ],
+      "offset": [
+        6,
+        5
+      ]
+    },
+    "cow-feed": {
+      "path": "assets/art/game/animals/cow-feed.png",
+      "bounds": [
+        805,
+        468,
+        1065,
+        614
+      ],
+      "scaledSize": [
+        78,
+        44
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        1,
+        8
+      ]
+    },
+    "cow-rest": {
+      "path": "assets/art/game/animals/cow-rest.png",
+      "bounds": [
+        1065,
+        485,
+        1274,
+        613
+      ],
+      "scaledSize": [
+        63,
+        38
+      ],
+      "canvasSize": [
+        80,
+        52
+      ],
+      "offset": [
+        8,
+        14
+      ]
+    },
+    "egg": {
+      "path": "assets/art/game/animals/egg.png",
+      "bounds": [
+        165,
+        980,
+        241,
+        1070
+      ],
+      "scaledSize": [
+        20,
+        24
+      ],
+      "canvasSize": [
+        20,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "milk": {
+      "path": "assets/art/game/animals/milk.png",
+      "bounds": [
+        514,
+        977,
+        595,
+        1086
+      ],
+      "scaledSize": [
+        18,
+        24
+      ],
+      "canvasSize": [
+        18,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "feed": {
+      "path": "assets/art/game/animals/feed.png",
+      "bounds": [
+        886,
+        964,
+        1016,
+        1086
+      ],
+      "scaledSize": [
+        24,
+        23
+      ],
+      "canvasSize": [
+        24,
+        23
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  }
+}

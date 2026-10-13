@@ -1,0 +1,326 @@
+{
+  "source": "像素农作物生长与收获图鉴.png",
+  "sha256": "8e4734c3b9d4d47835368ba3d74282fc2527d8d4be5a3754493ae91d069c8f6d",
+  "assets": {
+    "turnip-0": {
+      "path": "assets/art/game/crops/turnip-0.png",
+      "width": 23,
+      "height": 28,
+      "bounds": [
+        25,
+        0,
+        264,
+        291
+      ],
+      "originalSize": [
+        239,
+        291
+      ],
+      "scale": 0.09523809523809523
+    },
+    "turnip-1": {
+      "path": "assets/art/game/crops/turnip-1.png",
+      "width": 25,
+      "height": 26,
+      "bounds": [
+        265,
+        15,
+        523,
+        291
+      ],
+      "originalSize": [
+        258,
+        276
+      ],
+      "scale": 0.09523809523809523
+    },
+    "turnip-2": {
+      "path": "assets/art/game/crops/turnip-2.png",
+      "width": 26,
+      "height": 25,
+      "bounds": [
+        523,
+        27,
+        798,
+        293
+      ],
+      "originalSize": [
+        275,
+        266
+      ],
+      "scale": 0.09523809523809523
+    },
+    "turnip-3": {
+      "path": "assets/art/game/crops/turnip-3.png",
+      "width": 30,
+      "height": 28,
+      "bounds": [
+        823,
+        7,
+        1138,
+        297
+      ],
+      "originalSize": [
+        315,
+        290
+      ],
+      "scale": 0.09523809523809523
+    },
+    "turnip-harvest": {
+      "path": "assets/art/game/crops/turnip-harvest.png",
+      "width": 19,
+      "height": 24,
+      "bounds": [
+        1151,
+        9,
+        1374,
+        294
+      ],
+      "originalSize": [
+        223,
+        285
+      ],
+      "scale": 0.08421052631578947
+    },
+    "potato-0": {
+      "path": "assets/art/game/crops/potato-0.png",
+      "width": 21,
+      "height": 22,
+      "bounds": [
+        41,
+        334,
+        260,
+        565
+      ],
+      "originalSize": [
+        219,
+        231
+      ],
+      "scale": 0.09523809523809523
+    },
+    "potato-1": {
+      "path": "assets/art/game/crops/potato-1.png",
+      "width": 24,
+      "height": 25,
+      "bounds": [
+        267,
+        301,
+        522,
+        565
+      ],
+      "originalSize": [
+        255,
+        264
+      ],
+      "scale": 0.09523809523809523
+    },
+    "potato-2": {
+      "path": "assets/art/game/crops/potato-2.png",
+      "width": 27,
+      "height": 24,
+      "bounds": [
+        523,
+        311,
+        802,
+        565
+      ],
+      "originalSize": [
+        279,
+        254
+      ],
+      "scale": 0.09523809523809523
+    },
+    "potato-3": {
+      "path": "assets/art/game/crops/potato-3.png",
+      "width": 30,
+      "height": 25,
+      "bounds": [
+        817,
+        299,
+        1132,
+        565
+      ],
+      "originalSize": [
+        315,
+        266
+      ],
+      "scale": 0.09523809523809523
+    },
+    "potato-harvest": {
+      "path": "assets/art/game/crops/potato-harvest.png",
+      "width": 24,
+      "height": 23,
+      "bounds": [
+        1141,
+        348,
+        1357,
+        557
+      ],
+      "originalSize": [
+        216,
+        209
+      ],
+      "scale": 0.1111111111111111
+    },
+    "strawberry-0": {
+      "path": "assets/art/game/crops/strawberry-0.png",
+      "width": 22,
+      "height": 20,
+      "bounds": [
+        25,
+        612,
+        264,
+        829
+      ],
+      "originalSize": [
+        239,
+        217
+      ],
+      "scale": 0.09287925696594428
+    },
+    "strawberry-1": {
+      "path": "assets/art/game/crops/strawberry-1.png",
+      "width": 24,
+      "height": 25,
+      "bounds": [
+        265,
+        565,
+        522,
+        829
+      ],
+      "originalSize": [
+        257,
+        264
+      ],
+      "scale": 0.09287925696594428
+    },
+    "strawberry-2": {
+      "path": "assets/art/game/crops/strawberry-2.png",
+      "width": 26,
+      "height": 25,
+      "bounds": [
+        523,
+        565,
+        806,
+        829
+      ],
+      "originalSize": [
+        283,
+        264
+      ],
+      "scale": 0.09287925696594428
+    },
+    "strawberry-3": {
+      "path": "assets/art/game/crops/strawberry-3.png",
+      "width": 30,
+      "height": 25,
+      "bounds": [
+        817,
+        565,
+        1140,
+        829
+      ],
+      "originalSize": [
+        323,
+        264
+      ],
+      "scale": 0.09287925696594428
+    },
+    "strawberry-harvest": {
+      "path": "assets/art/game/crops/strawberry-harvest.png",
+      "width": 23,
+      "height": 24,
+      "bounds": [
+        1140,
+        576,
+        1376,
+        826
+      ],
+      "originalSize": [
+        236,
+        250
+      ],
+      "scale": 0.096
+    },
+    "pumpkin-0": {
+      "path": "assets/art/game/crops/pumpkin-0.png",
+      "width": 21,
+      "height": 22,
+      "bounds": [
+        39,
+        867,
+        264,
+        1106
+      ],
+      "originalSize": [
+        225,
+        239
+      ],
+      "scale": 0.09345794392523364
+    },
+    "pumpkin-1": {
+      "path": "assets/art/game/crops/pumpkin-1.png",
+      "width": 24,
+      "height": 27,
+      "bounds": [
+        265,
+        829,
+        523,
+        1122
+      ],
+      "originalSize": [
+        258,
+        293
+      ],
+      "scale": 0.09345794392523364
+    },
+    "pumpkin-2": {
+      "path": "assets/art/game/crops/pumpkin-2.png",
+      "width": 27,
+      "height": 27,
+      "bounds": [
+        523,
+        829,
+        810,
+        1122
+      ],
+      "originalSize": [
+        287,
+        293
+      ],
+      "scale": 0.09345794392523364
+    },
+    "pumpkin-3": {
+      "path": "assets/art/game/crops/pumpkin-3.png",
+      "width": 30,
+      "height": 27,
+      "bounds": [
+        810,
+        829,
+        1131,
+        1122
+      ],
+      "originalSize": [
+        321,
+        293
+      ],
+      "scale": 0.09345794392523364
+    },
+    "pumpkin-harvest": {
+      "path": "assets/art/game/crops/pumpkin-harvest.png",
+      "width": 21,
+      "height": 24,
+      "bounds": [
+        1142,
+        840,
+        1386,
+        1122
+      ],
+      "originalSize": [
+        244,
+        282
+      ],
+      "scale": 0.0851063829787234
+    }
+  }
+}

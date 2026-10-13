@@ -1,0 +1,114 @@
+:root { font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif; color: #fff2cd; background: #172e29; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+#viewport { width: 100%; height: 100dvh; overflow: auto; display: grid; place-items: safe center; background: radial-gradient(ellipse at center, #2c4639, #142923); }
+#game { position: relative; width: 960px; height: 540px; flex: none; overflow: hidden; box-shadow: 0 12px 60px #071c1c70; }
+canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; outline: none; }
+.ui-layer { width: 960px; height: 540px; position: absolute; inset: 0; transform: scale(var(--game-zoom, 1)); transform-origin: top left; pointer-events: none; }
+.ui-layer button, .menu-card, .settings-card { pointer-events: auto; }
+button { font: inherit; cursor: pointer; border-radius: 0; }
+button:focus-visible { outline: 3px solid #fff2cd; outline-offset: 5px; }
+.brand { position: absolute; top: 34px; left: 40px; color: #fff2cd; font-size: 13px; font-weight: bold; letter-spacing: 1px; display: flex; gap: 12px; align-items: center; }
+.sprout { color: #d5b66f; font-size: 27px; line-height: 1; }
+.brand .sprout { color: #45694b; }
+.brand-divider { opacity: .4; }
+.edition { position: absolute; right: 40px; top: 38px; color: #fff2cd; font-size: 12px; letter-spacing: 2px; }
+.hero-copy { position: absolute; left: 74px; top: 253px; }
+.small-label { font-family: monospace; color: #304f3d; font-weight: bold; font-size: 11px; letter-spacing: 2px; }
+.hero-copy p { font-size: 17px; line-height: 1.8; color: #fff1cf; letter-spacing: 3px; margin-top: 17px; text-shadow: 1px 2px #496340; }
+.menu-card { position: absolute; left: 604px; top: 112px; width: 284px; height: 345px; background: #203c32f5; border: 2px solid #78916a; box-shadow: 0 0 0 5px #203c32, 0 0 0 6px #d8c18a66, 7px 12px #28472c66; padding: 26px 24px; }
+.card-eyebrow { display: block; font-family: monospace; letter-spacing: 3px; font-size: 10px; color: #b0bc94; }
+h1 { font-size: 20px; letter-spacing: 1px; font-weight: 500; margin: 10px 0 24px; }
+.menu-actions { display: flex; flex-direction: column; gap: 12px; }
+.pixel-button { height: 46px; width: 100%; border: 2px solid #93a17c; color: #f8e9c4; background: #335342; box-shadow: 0 3px #112b24; font-size: 15px; letter-spacing: 2px; transition: background .1s; }
+.pixel-button:hover:not(:disabled) { background: #4b6951; }
+.pixel-button:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px #112b24; }
+.pixel-button.primary { color: #3e432e; border-color: #ffdda0; background: #e8c17d; box-shadow: 0 3px #a58250; font-weight: bold; }
+.pixel-button.primary:hover { background: #f5d497; }
+.pixel-button:disabled { cursor: not-allowed; color: #7f9480; background: #294339; border-color: #48604a; box-shadow: none; }
+.unavailable-note { text-align: center; font-size: 10px; color: #a0ad8f; margin: -7px 0 0; letter-spacing: 1px; }
+.menu-note { display: block; text-align: center; font-size: 11px; color: #9baa8c; margin-top: 22px; letter-spacing: 2px; }
+.menu-footer { position: absolute; bottom: 0; height: 40px; width: 100%; padding: 0 40px; background: #254432d6; border-top: 1px solid #a5b07655; display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #d0d4b0; letter-spacing: 2px; }
+.footer-star { color: #e8c17d; margin-left: 12px; }
+.farm-heading { position: absolute; top: 20px; left: 24px; padding: 12px 18px; display: flex; align-items: center; gap: 13px; background: #213e32ed; border: 2px solid #a2a478; box-shadow: 3px 3px #405e39; }
+.farm-heading strong { display: block; font-size: 19px; letter-spacing: 2px; font-weight: 500; }
+.farm-heading div > span { display: block; margin-top: 5px; font-size: 10px; color: #b8c1a0; letter-spacing: 2px; }
+.farm-controls { position: absolute; top: 24px; right: 24px; display: flex; gap: 10px; }
+.compact-button { border: 2px solid #a2a478; background: #213e32ed; color: #f6e9c2; padding: 10px 14px; font-size: 12px; box-shadow: 3px 3px #405e39; }
+.compact-button:hover { background: #3a5942; }
+.farm-hint { position: absolute; bottom: 16px; left: 24px; right: 24px; display: flex; gap: 10px; align-items: center; padding: 12px 16px; background: #213e32ed; border: 1px solid #89976c; color: #d8ddbc; font-size: 11px; }
+.farm-hint i { width: 1px; height: 14px; background: #74896a; margin: 0 6px; }
+.farm-hint small { margin-left: auto; font-size: 10px; color: #c4c69c; }
+.keycap { font-family: monospace; border: 1px solid #a3ae87; padding: 3px 6px; color: #f3dfad; }
+.modal-backdrop { position: absolute; inset: 0; background: #132c25ba; pointer-events: auto; display: grid; place-items: center; }
+.settings-card { width: 430px; padding: 30px 34px; border: 2px solid #b6b787; box-shadow: 0 0 0 5px #203c32, 8px 10px #132d2470; background: #203c32; }
+.settings-card h2 { font-size: 25px; font-weight: 500; margin: 12px 0 20px; }
+.settings-card p { color: #c7d0ad; font-size: 13px; line-height: 1.8; }
+.settings-actions { display: flex; flex-direction: column; gap: 14px; margin: 24px 0 16px; }
+.settings-card small { color: #a8b493; font-size: 10px; }
+/* Feedback remains inside the fixed logical viewport, above the control strip. */
+.interaction-feedback { position: absolute; bottom: 84px; left: 50%; transform: translateX(-50%); text-align: center; width: 540px; color: #fff2cd; }
+.interaction-prompt:not(:empty), .interaction-message:not(:empty) { background: #18382eee; border: 2px solid #ad9364; padding: 10px 18px; margin-top: 8px; box-shadow: 3px 3px 0 #10261e80; }
+.interaction-prompt { font-size: 13px; }
+.interaction-message { font-size: 14px; line-height: 1.65; }
+.farm-status { position: absolute; left: 260px; top: 24px; background: #213e32ed; padding: 12px 16px; border: 1px solid #89976c; font-size: 13px; }
+.inventory-readout { position: absolute; left: 260px; top: 72px; font-size: 11px; background: #213e32ed; padding: 7px 10px; }
+.inventory-readout { display: flex; gap: 14px; }
+.inventory-readout span { display: flex; align-items: center; gap: 3px; }
+.inventory-readout img { width: 24px; height: 24px; object-fit: contain; image-rendering: pixelated; }
+.tool-bar { position: absolute; bottom: 74px; left: 24px; right: 24px; display: flex; gap: 6px; }
+.tool-button { pointer-events: auto; flex: 1; padding: 9px 4px; border: 2px solid #89976c; background: #213e32f5; color: #eee6c4; font-size: 11px; }
+.tool-button[aria-pressed="true"] { border-color: #ffe49d; background: #715932; color: #fff2cd; }
+.ui-layer[data-scene="farm"] .interaction-feedback { bottom: 124px; }
+/* The world prompt already labels the target; keep its DOM status accessible
+   without covering the player or the crop with a second persistent banner. */
+.ui-layer[data-scene="farm"] .interaction-prompt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.ui-layer[data-scene="farm"] .interaction-message:not(:empty) { font-size: 12px; padding: 7px 12px; }
+.tool-button { min-width: 0; height: 50px; display: flex; align-items: center; justify-content: center; gap: 3px; }
+.tool-button img, .bag-slot img, .shop-item img { width: 24px; height: 24px; image-rendering: pixelated; object-fit: contain; }
+.tool-button span { font-size: 10px; }
+.management-card { position: relative; width: 820px; max-height: 494px; overflow: auto; padding: 16px 22px; border: 2px solid #b6b787; background: #203c32; pointer-events: auto; }
+.management-card h2 { margin: 0 0 10px; font-size: 20px; }
+.panel-close { position: absolute; right: 16px; top: 12px; padding: 6px 12px; }
+.panel-help { margin: 0 0 10px; font-size: 11px; color: #c7d0ad; }
+.bag-grid { display: grid; grid-template-columns: repeat(8,1fr); gap: 6px; }
+.bag-slot { height: 64px; background: #18382e; border: 2px solid #78916a; color: #fff2cd; font-size: 10px; display: flex; align-items: center; justify-content: center; flex-direction: column; user-select: none; touch-action: none; }
+.bag-slot[aria-pressed="true"], .shop-item[aria-pressed="true"] { border-color: #ffe49d; background: #5c5032; }
+.item-details { min-height: 26px; margin: 8px 0; font-size: 12px; color: #eee3bc; }
+.bag-hotbar { display: grid; grid-template-columns: repeat(8,1fr); gap: 6px; }
+.bag-binding { height: 42px; border: 1px solid #ad9364; background: #294e3b; color: #fff2cd; font-size: 10px; touch-action: none; }
+.management-card p[role="status"] { font-size: 12px; margin: 8px 0 0; min-height: 18px; }
+.shop-summary { margin: 0 0 8px; font-size: 12px; }
+.shop-listings { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.shop-listings h3 { margin: 0 0 7px; font-size: 14px; color: #e8c17d; }
+.shop-item { width: 100%; height: 44px; border: 1px solid #78916a; display: flex; gap: 8px; align-items: center; background: #294e3b; color: #eee3bc; margin-bottom: 5px; font-size: 12px; padding: 6px 9px; }
+.shop-item span:last-child { margin-left: auto; }
+.trade-form { display: flex; gap: 14px; align-items: center; }
+.trade-form input { width: 78px; padding: 6px; font: inherit; background: #18382e; border: 1px solid #78916a; color: #fff2cd; }
+.trade-form .pixel-button { width: 220px; height: 36px; font-size: 13px; }
+.trade-feedback { color: #ffe49d; }
+.farm-status { white-space: pre-line; font-size: 12px; line-height: 1.7; top: 20px; padding: 7px 12px; }
+.inventory-readout { top: 82px; }
+.pause-card { width: 470px; display: flex; flex-direction: column; gap: 12px; }
+.pause-card p { font-size: 12px; line-height: 1.7; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; text-align: center; }
+.calendar-grid strong { font-size: 12px; padding: 8px; }
+.calendar-grid span { padding: 18px 8px; border: 1px solid #78916a; background: #18382e; }
+.calendar-grid .today { color: #ffe49d; border: 2px solid #ffe49d; background: #5c5032; }
+.dialogue-card { width: 660px; }
+.dialogue-body { display: flex; gap: 22px; align-items: center; min-height: 170px; }
+.dialogue-body img { width: 108px; height: 140px; image-rendering: pixelated; object-fit: contain; }
+.dialogue-text { font-size: 16px; line-height: 1.9; flex: 1; min-height: 90px; }
+.dialogue-actions { display: flex; gap: 12px; margin: 12px 0; }
+.commission-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.commission-row { padding: 14px; border: 1px solid #89976c; background: #18382e; }
+.commission-row h3 { margin: 0 0 8px; font-size: 14px; color: #e8c17d; }
+.commission-row p { font-size: 12px; line-height: 1.7; }
+.commission-item { display: flex; align-items: center; gap: 8px; margin: 8px 0; font-size: 12px; }
+.commission-item img { width: 32px; height: 32px; image-rendering: pixelated; object-fit: contain; }
+.commission-item span:last-child { margin-left: auto; }
+.farm-controls { gap: 6px; }
+.farm-controls .compact-button { padding: 10px; }
+.livestock-row { display:flex; flex-wrap:wrap; align-items:center; gap:10px; padding:12px; margin:10px 0; border:1px solid #78916a; background:#18382e; font-size:12px; }
+.livestock-row img { width:32px; height:32px; object-fit:contain; image-rendering:pixelated; }
+.management-card > div > .compact-button { margin:4px; }

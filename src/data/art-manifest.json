@@ -1,0 +1,3375 @@
+{
+  "gridSize": 32,
+  "objectScale": 0.375,
+  "sources": {
+    "vegetation": {
+      "file": "ChatGPT 图像 2026年10月12日 16_00_26-1.png",
+      "sha256": "56bbc0a1a68300f6aabc1f0567a280925fec870f43f0b980f2cb07086bc8d897",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "buildings": {
+      "file": "ChatGPT 图像 2026年10月12日 16_00_29-2.png",
+      "sha256": "04cadc6e016eccff410976ab8ffa9d58ae2e2d47a8b91cc8d646b58eec4a3bd8",
+      "size": [
+        1448,
+        1086
+      ]
+    },
+    "terrain": {
+      "file": "ChatGPT 图像 2026年10月12日 16_00_31-3.png",
+      "sha256": "f324c2e17678de2ae9463e8fc76de92a37dc2abd596f9dadec6f694d2f4e183e",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "water": {
+      "file": "ChatGPT 图像 2026年10月12日 16_00_35-4.png",
+      "sha256": "54f8ac6a68d449382ab3324d51ad572ce9874075eb12b1b2b87ee8fa6156fe1e",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "decorations": {
+      "file": "ChatGPT 图像 2026年10月12日 16_00_47-5.png",
+      "sha256": "69fedb1894bce716bfd7893d6c111db23c78617d47bf8d7e500c6ce18ab4d9cc",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "village": {
+      "file": "像素风村庄与NPC资源图鉴.png",
+      "sha256": "6f678e42f77efadda5256095319ebe1b321578886f4f901d4a3b937fb7941755",
+      "size": [
+        1536,
+        1024
+      ]
+    }
+  },
+  "objects": {
+    "tree-spring": {
+      "path": "assets/art/game/objects/tree-spring.png",
+      "width": 140,
+      "height": 176,
+      "scale": 0.3013698630136986,
+      "source": "vegetation",
+      "bounds": [
+        0,
+        31,
+        465,
+        615
+      ],
+      "originalSize": [
+        465,
+        584
+      ],
+      "neighborCleanup": true
+    },
+    "tree-autumn": {
+      "path": "assets/art/game/objects/tree-autumn.png",
+      "width": 121,
+      "height": 176,
+      "scale": 0.3137254901960784,
+      "source": "vegetation",
+      "bounds": [
+        465,
+        51,
+        850,
+        612
+      ],
+      "originalSize": [
+        385,
+        561
+      ],
+      "neighborCleanup": true
+    },
+    "tree-oak": {
+      "path": "assets/art/game/objects/tree-oak.png",
+      "width": 121,
+      "height": 176,
+      "scale": 0.29982964224872233,
+      "source": "vegetation",
+      "bounds": [
+        850,
+        41,
+        1254,
+        628
+      ],
+      "originalSize": [
+        404,
+        587
+      ],
+      "neighborCleanup": true
+    },
+    "tree-young": {
+      "path": "assets/art/game/objects/tree-young.png",
+      "width": 79,
+      "height": 104,
+      "scale": 0.29714285714285715,
+      "source": "vegetation",
+      "bounds": [
+        95,
+        635,
+        362,
+        985
+      ],
+      "originalSize": [
+        267,
+        350
+      ],
+      "neighborCleanup": false
+    },
+    "tree-apple": {
+      "path": "assets/art/game/objects/tree-apple.png",
+      "width": 132,
+      "height": 136,
+      "scale": 0.3253588516746411,
+      "source": "vegetation",
+      "bounds": [
+        397,
+        615,
+        802,
+        1033
+      ],
+      "originalSize": [
+        405,
+        418
+      ],
+      "neighborCleanup": false
+    },
+    "stump-moss": {
+      "path": "assets/art/game/objects/stump-moss.png",
+      "width": 69,
+      "height": 48,
+      "scale": 0.21052631578947367,
+      "source": "vegetation",
+      "bounds": [
+        847,
+        777,
+        1174,
+        1005
+      ],
+      "originalSize": [
+        327,
+        228
+      ],
+      "neighborCleanup": false
+    },
+    "bush-white": {
+      "path": "assets/art/game/objects/bush-white.png",
+      "width": 40,
+      "height": 36,
+      "scale": 0.15859030837004406,
+      "source": "vegetation",
+      "bounds": [
+        24,
+        1000,
+        277,
+        1227
+      ],
+      "originalSize": [
+        253,
+        227
+      ],
+      "neighborCleanup": false
+    },
+    "bush-pink": {
+      "path": "assets/art/game/objects/bush-pink.png",
+      "width": 41,
+      "height": 36,
+      "scale": 0.17733990147783252,
+      "source": "vegetation",
+      "bounds": [
+        290,
+        1023,
+        520,
+        1226
+      ],
+      "originalSize": [
+        230,
+        203
+      ],
+      "neighborCleanup": false
+    },
+    "flowers-white": {
+      "path": "assets/art/game/objects/flowers-white.png",
+      "width": 23,
+      "height": 20,
+      "scale": 0.13245033112582782,
+      "source": "vegetation",
+      "bounds": [
+        541,
+        1075,
+        718,
+        1226
+      ],
+      "originalSize": [
+        177,
+        151
+      ],
+      "neighborCleanup": false
+    },
+    "flowers-blue": {
+      "path": "assets/art/game/objects/flowers-blue.png",
+      "width": 22,
+      "height": 20,
+      "scale": 0.12903225806451613,
+      "source": "vegetation",
+      "bounds": [
+        728,
+        1075,
+        902,
+        1230
+      ],
+      "originalSize": [
+        174,
+        155
+      ],
+      "neighborCleanup": false
+    },
+    "log-moss": {
+      "path": "assets/art/game/objects/log-moss.png",
+      "width": 73,
+      "height": 40,
+      "scale": 0.21978021978021978,
+      "source": "vegetation",
+      "bounds": [
+        904,
+        1044,
+        1238,
+        1226
+      ],
+      "originalSize": [
+        334,
+        182
+      ],
+      "neighborCleanup": false
+    },
+    "cabin": {
+      "path": "assets/art/game/objects/cabin.png",
+      "width": 258,
+      "height": 218,
+      "scale": 0.375,
+      "source": "buildings",
+      "bounds": [
+        39,
+        40,
+        727,
+        621
+      ],
+      "originalSize": [
+        688,
+        581
+      ],
+      "neighborCleanup": false
+    },
+    "barn": {
+      "path": "assets/art/game/objects/barn.png",
+      "width": 268,
+      "height": 223,
+      "scale": 0.375,
+      "source": "buildings",
+      "bounds": [
+        729,
+        40,
+        1445,
+        634
+      ],
+      "originalSize": [
+        716,
+        594
+      ],
+      "neighborCleanup": false
+    },
+    "shed": {
+      "path": "assets/art/game/objects/shed.png",
+      "width": 182,
+      "height": 141,
+      "scale": 0.375,
+      "source": "buildings",
+      "bounds": [
+        65,
+        630,
+        549,
+        1007
+      ],
+      "originalSize": [
+        484,
+        377
+      ],
+      "neighborCleanup": false
+    },
+    "coop": {
+      "path": "assets/art/game/objects/coop.png",
+      "width": 165,
+      "height": 146,
+      "scale": 0.375,
+      "source": "buildings",
+      "bounds": [
+        608,
+        645,
+        1048,
+        1035
+      ],
+      "originalSize": [
+        440,
+        390
+      ],
+      "neighborCleanup": false
+    },
+    "well": {
+      "path": "assets/art/game/objects/well.png",
+      "width": 105,
+      "height": 129,
+      "scale": 0.375,
+      "source": "buildings",
+      "bounds": [
+        1091,
+        684,
+        1372,
+        1029
+      ],
+      "originalSize": [
+        281,
+        345
+      ],
+      "neighborCleanup": false
+    },
+    "fence": {
+      "path": "assets/art/game/objects/fence.png",
+      "width": 50,
+      "height": 32,
+      "scale": 0.15458937198067632,
+      "source": "decorations",
+      "bounds": [
+        17,
+        115,
+        340,
+        322
+      ],
+      "originalSize": [
+        323,
+        207
+      ],
+      "neighborCleanup": false
+    },
+    "fence-end": {
+      "path": "assets/art/game/objects/fence-end.png",
+      "width": 28,
+      "height": 32,
+      "scale": 0.15311004784688995,
+      "source": "decorations",
+      "bounds": [
+        350,
+        120,
+        533,
+        329
+      ],
+      "originalSize": [
+        183,
+        209
+      ],
+      "neighborCleanup": false
+    },
+    "gate": {
+      "path": "assets/art/game/objects/gate.png",
+      "width": 59,
+      "height": 36,
+      "scale": 0.14754098360655737,
+      "source": "decorations",
+      "bounds": [
+        536,
+        86,
+        939,
+        330
+      ],
+      "originalSize": [
+        403,
+        244
+      ],
+      "neighborCleanup": false
+    },
+    "post": {
+      "path": "assets/art/game/objects/post.png",
+      "width": 18,
+      "height": 30,
+      "scale": 0.15,
+      "source": "decorations",
+      "bounds": [
+        936,
+        124,
+        1055,
+        324
+      ],
+      "originalSize": [
+        119,
+        200
+      ],
+      "neighborCleanup": false
+    },
+    "sign": {
+      "path": "assets/art/game/objects/sign.png",
+      "width": 35,
+      "height": 48,
+      "scale": 0.1927710843373494,
+      "source": "decorations",
+      "bounds": [
+        1067,
+        79,
+        1251,
+        328
+      ],
+      "originalSize": [
+        184,
+        249
+      ],
+      "neighborCleanup": false
+    },
+    "crate": {
+      "path": "assets/art/game/objects/crate.png",
+      "width": 29,
+      "height": 36,
+      "scale": 0.15126050420168066,
+      "source": "decorations",
+      "bounds": [
+        29,
+        403,
+        221,
+        641
+      ],
+      "originalSize": [
+        192,
+        238
+      ],
+      "neighborCleanup": false
+    },
+    "crate-open": {
+      "path": "assets/art/game/objects/crate-open.png",
+      "width": 29,
+      "height": 36,
+      "scale": 0.16589861751152074,
+      "source": "decorations",
+      "bounds": [
+        245,
+        432,
+        420,
+        649
+      ],
+      "originalSize": [
+        175,
+        217
+      ],
+      "neighborCleanup": false
+    },
+    "barrel": {
+      "path": "assets/art/game/objects/barrel.png",
+      "width": 30,
+      "height": 40,
+      "scale": 0.16260162601626016,
+      "source": "decorations",
+      "bounds": [
+        450,
+        401,
+        632,
+        647
+      ],
+      "originalSize": [
+        182,
+        246
+      ],
+      "neighborCleanup": false
+    },
+    "bucket": {
+      "path": "assets/art/game/objects/bucket.png",
+      "width": 27,
+      "height": 28,
+      "scale": 0.1686746987951807,
+      "source": "decorations",
+      "bounds": [
+        642,
+        465,
+        800,
+        631
+      ],
+      "originalSize": [
+        158,
+        166
+      ],
+      "neighborCleanup": false
+    },
+    "lantern": {
+      "path": "assets/art/game/objects/lantern.png",
+      "width": 45,
+      "height": 64,
+      "scale": 0.19875776397515527,
+      "source": "decorations",
+      "bounds": [
+        800,
+        339,
+        1027,
+        661
+      ],
+      "originalSize": [
+        227,
+        322
+      ],
+      "neighborCleanup": false
+    },
+    "scarecrow": {
+      "path": "assets/art/game/objects/scarecrow.png",
+      "width": 34,
+      "height": 56,
+      "scale": 0.14698162729658792,
+      "source": "decorations",
+      "bounds": [
+        1026,
+        382,
+        1254,
+        763
+      ],
+      "originalSize": [
+        228,
+        381
+      ],
+      "neighborCleanup": false
+    },
+    "rock-large": {
+      "path": "assets/art/game/objects/rock-large.png",
+      "width": 86,
+      "height": 56,
+      "scale": 0.2828282828282828,
+      "source": "decorations",
+      "bounds": [
+        19,
+        658,
+        322,
+        856
+      ],
+      "originalSize": [
+        303,
+        198
+      ],
+      "neighborCleanup": false
+    },
+    "rock-cluster": {
+      "path": "assets/art/game/objects/rock-cluster.png",
+      "width": 59,
+      "height": 44,
+      "scale": 0.25,
+      "source": "decorations",
+      "bounds": [
+        351,
+        682,
+        587,
+        858
+      ],
+      "originalSize": [
+        236,
+        176
+      ],
+      "neighborCleanup": false
+    },
+    "rock-small": {
+      "path": "assets/art/game/objects/rock-small.png",
+      "width": 57,
+      "height": 32,
+      "scale": 0.22857142857142856,
+      "source": "decorations",
+      "bounds": [
+        610,
+        700,
+        861,
+        840
+      ],
+      "originalSize": [
+        251,
+        140
+      ],
+      "neighborCleanup": false
+    },
+    "pebble": {
+      "path": "assets/art/game/objects/pebble.png",
+      "width": 41,
+      "height": 35,
+      "scale": 0.375,
+      "source": "decorations",
+      "bounds": [
+        895,
+        747,
+        1005,
+        841
+      ],
+      "originalSize": [
+        110,
+        94
+      ],
+      "neighborCleanup": false
+    },
+    "bench": {
+      "path": "assets/art/game/objects/bench.png",
+      "width": 79,
+      "height": 40,
+      "scale": 0.20202020202020202,
+      "source": "decorations",
+      "bounds": [
+        18,
+        857,
+        409,
+        1055
+      ],
+      "originalSize": [
+        391,
+        198
+      ],
+      "neighborCleanup": false
+    },
+    "stump": {
+      "path": "assets/art/game/objects/stump.png",
+      "width": 64,
+      "height": 40,
+      "scale": 0.23255813953488372,
+      "source": "decorations",
+      "bounds": [
+        416,
+        884,
+        692,
+        1056
+      ],
+      "originalSize": [
+        276,
+        172
+      ],
+      "neighborCleanup": false
+    },
+    "log": {
+      "path": "assets/art/game/objects/log.png",
+      "width": 55,
+      "height": 32,
+      "scale": 0.1871345029239766,
+      "source": "decorations",
+      "bounds": [
+        704,
+        882,
+        997,
+        1053
+      ],
+      "originalSize": [
+        293,
+        171
+      ],
+      "neighborCleanup": false
+    },
+    "bush-round": {
+      "path": "assets/art/game/objects/bush-round.png",
+      "width": 43,
+      "height": 36,
+      "scale": 0.1782178217821782,
+      "source": "decorations",
+      "bounds": [
+        1001,
+        851,
+        1241,
+        1053
+      ],
+      "originalSize": [
+        240,
+        202
+      ],
+      "neighborCleanup": false
+    },
+    "mushrooms-red": {
+      "path": "assets/art/game/objects/mushrooms-red.png",
+      "width": 35,
+      "height": 24,
+      "scale": 0.15789473684210525,
+      "source": "decorations",
+      "bounds": [
+        16,
+        1074,
+        238,
+        1226
+      ],
+      "originalSize": [
+        222,
+        152
+      ],
+      "neighborCleanup": false
+    },
+    "mushrooms-brown": {
+      "path": "assets/art/game/objects/mushrooms-brown.png",
+      "width": 31,
+      "height": 24,
+      "scale": 0.1610738255033557,
+      "source": "decorations",
+      "bounds": [
+        237,
+        1078,
+        429,
+        1227
+      ],
+      "originalSize": [
+        192,
+        149
+      ],
+      "neighborCleanup": false
+    },
+    "mushrooms-gold": {
+      "path": "assets/art/game/objects/mushrooms-gold.png",
+      "width": 31,
+      "height": 24,
+      "scale": 0.1518987341772152,
+      "source": "decorations",
+      "bounds": [
+        434,
+        1074,
+        640,
+        1232
+      ],
+      "originalSize": [
+        206,
+        158
+      ],
+      "neighborCleanup": false
+    },
+    "mushrooms-white": {
+      "path": "assets/art/game/objects/mushrooms-white.png",
+      "width": 31,
+      "height": 24,
+      "scale": 0.17647058823529413,
+      "source": "decorations",
+      "bounds": [
+        645,
+        1088,
+        822,
+        1224
+      ],
+      "originalSize": [
+        177,
+        136
+      ],
+      "neighborCleanup": false
+    },
+    "flowers-daisies": {
+      "path": "assets/art/game/objects/flowers-daisies.png",
+      "width": 29,
+      "height": 20,
+      "scale": 0.14184397163120568,
+      "source": "decorations",
+      "bounds": [
+        839,
+        1085,
+        1040,
+        1226
+      ],
+      "originalSize": [
+        201,
+        141
+      ],
+      "neighborCleanup": false
+    },
+    "dirt-patch": {
+      "path": "assets/art/game/objects/dirt-patch.png",
+      "width": 76,
+      "height": 57,
+      "scale": 0.375,
+      "source": "decorations",
+      "bounds": [
+        1040,
+        1075,
+        1242,
+        1226
+      ],
+      "originalSize": [
+        202,
+        151
+      ],
+      "neighborCleanup": false
+    },
+    "reeds": {
+      "path": "assets/art/game/objects/reeds.png",
+      "width": 51,
+      "height": 59,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        45,
+        850,
+        181,
+        1007
+      ],
+      "originalSize": [
+        136,
+        157
+      ],
+      "neighborCleanup": false
+    },
+    "cattails": {
+      "path": "assets/art/game/objects/cattails.png",
+      "width": 73,
+      "height": 76,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        192,
+        825,
+        387,
+        1027
+      ],
+      "originalSize": [
+        195,
+        202
+      ],
+      "neighborCleanup": false
+    },
+    "cattails-wide": {
+      "path": "assets/art/game/objects/cattails-wide.png",
+      "width": 68,
+      "height": 82,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        391,
+        827,
+        571,
+        1045
+      ],
+      "originalSize": [
+        180,
+        218
+      ],
+      "neighborCleanup": true
+    },
+    "water-rocks": {
+      "path": "assets/art/game/objects/water-rocks.png",
+      "width": 76,
+      "height": 73,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        606,
+        849,
+        808,
+        1044
+      ],
+      "originalSize": [
+        202,
+        195
+      ],
+      "neighborCleanup": false
+    },
+    "dock": {
+      "path": "assets/art/game/objects/dock.png",
+      "width": 148,
+      "height": 106,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        829,
+        779,
+        1224,
+        1063
+      ],
+      "originalSize": [
+        395,
+        284
+      ],
+      "neighborCleanup": true
+    },
+    "pond-rock-large": {
+      "path": "assets/art/game/objects/pond-rock-large.png",
+      "width": 112,
+      "height": 83,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        27,
+        1003,
+        327,
+        1224
+      ],
+      "originalSize": [
+        300,
+        221
+      ],
+      "neighborCleanup": false
+    },
+    "pond-rock": {
+      "path": "assets/art/game/objects/pond-rock.png",
+      "width": 76,
+      "height": 72,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        345,
+        1031,
+        547,
+        1222
+      ],
+      "originalSize": [
+        202,
+        191
+      ],
+      "neighborCleanup": false
+    },
+    "pond-stones": {
+      "path": "assets/art/game/objects/pond-stones.png",
+      "width": 69,
+      "height": 62,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        573,
+        1055,
+        756,
+        1220
+      ],
+      "originalSize": [
+        183,
+        165
+      ],
+      "neighborCleanup": false
+    },
+    "water-lily": {
+      "path": "assets/art/game/objects/water-lily.png",
+      "width": 93,
+      "height": 63,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        795,
+        1071,
+        1043,
+        1238
+      ],
+      "originalSize": [
+        248,
+        167
+      ],
+      "neighborCleanup": false
+    },
+    "pond-cattails": {
+      "path": "assets/art/game/objects/pond-cattails.png",
+      "width": 63,
+      "height": 63,
+      "scale": 0.375,
+      "source": "water",
+      "bounds": [
+        1068,
+        1057,
+        1236,
+        1224
+      ],
+      "originalSize": [
+        168,
+        167
+      ],
+      "neighborCleanup": false
+    },
+    "town-shop": {
+      "path": "assets/art/game/town/town-shop.png",
+      "width": 248,
+      "height": 196,
+      "source": "village",
+      "bounds": [
+        13,
+        542,
+        303,
+        770
+      ],
+      "rawPath": "assets/art/raw-crops/town-shop.png",
+      "neighborCleanup": false,
+      "foregroundMask": null
+    },
+    "town-workshop": {
+      "path": "assets/art/game/town/town-workshop.png",
+      "width": 224,
+      "height": 200,
+      "source": "village",
+      "bounds": [
+        529,
+        536,
+        781,
+        770
+      ],
+      "rawPath": "assets/art/raw-crops/town-workshop.png",
+      "neighborCleanup": false,
+      "foregroundMask": null
+    },
+    "town-cottage": {
+      "path": "assets/art/game/town/town-cottage.png",
+      "width": 240,
+      "height": 196,
+      "source": "village",
+      "bounds": [
+        1020,
+        542,
+        1297,
+        770
+      ],
+      "rawPath": "assets/art/raw-crops/town-cottage.png",
+      "neighborCleanup": false,
+      "foregroundMask": null
+    },
+    "town-board": {
+      "path": "assets/art/game/town/town-board.png",
+      "width": 96,
+      "height": 100,
+      "source": "village",
+      "bounds": [
+        590,
+        808,
+        758,
+        980
+      ],
+      "rawPath": "assets/art/raw-crops/town-board.png",
+      "neighborCleanup": true,
+      "foregroundMask": [
+        [
+          10,
+          7
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          165,
+          33
+        ],
+        [
+          160,
+          39
+        ],
+        [
+          152,
+          39
+        ],
+        [
+          152,
+          135
+        ],
+        [
+          158,
+          136
+        ],
+        [
+          160,
+          161
+        ],
+        [
+          132,
+          161
+        ],
+        [
+          132,
+          135
+        ],
+        [
+          43,
+          135
+        ],
+        [
+          43,
+          161
+        ],
+        [
+          9,
+          161
+        ],
+        [
+          10,
+          135
+        ],
+        [
+          18,
+          134
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          6,
+          39
+        ],
+        [
+          3,
+          30
+        ]
+      ]
+    }
+  },
+  "tiles": [
+    {
+      "name": "grass",
+      "path": "assets/art/game/terrain/grass.png",
+      "collides": false
+    },
+    {
+      "name": "grass-flowers",
+      "path": "assets/art/game/terrain/grass-flowers.png",
+      "collides": false
+    },
+    {
+      "name": "farmland",
+      "path": "assets/art/game/terrain/farmland.png",
+      "collides": false
+    },
+    {
+      "name": "dirt",
+      "path": "assets/art/game/terrain/dirt.png",
+      "collides": false
+    },
+    {
+      "name": "water",
+      "path": "assets/art/game/terrain/water.png",
+      "collides": true
+    },
+    {
+      "name": "stone",
+      "path": "assets/art/game/terrain/stone.png",
+      "collides": false
+    },
+    {
+      "name": "bank-n",
+      "path": "assets/art/game/terrain/bank-n.png",
+      "collides": true
+    },
+    {
+      "name": "bank-s",
+      "path": "assets/art/game/terrain/bank-s.png",
+      "collides": true
+    },
+    {
+      "name": "bank-w",
+      "path": "assets/art/game/terrain/bank-w.png",
+      "collides": true
+    },
+    {
+      "name": "bank-e",
+      "path": "assets/art/game/terrain/bank-e.png",
+      "collides": true
+    },
+    {
+      "name": "bank-nw",
+      "path": "assets/art/game/terrain/bank-nw.png",
+      "collides": true
+    },
+    {
+      "name": "bank-ne",
+      "path": "assets/art/game/terrain/bank-ne.png",
+      "collides": true
+    },
+    {
+      "name": "bank-sw",
+      "path": "assets/art/game/terrain/bank-sw.png",
+      "collides": true
+    },
+    {
+      "name": "bank-se",
+      "path": "assets/art/game/terrain/bank-se.png",
+      "collides": true
+    },
+    {
+      "name": "meadow-0-0",
+      "path": "assets/art/game/terrain/meadow-0-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "meadow-1-0",
+      "path": "assets/art/game/terrain/meadow-1-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "meadow-2-0",
+      "path": "assets/art/game/terrain/meadow-2-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "meadow-0-1",
+      "path": "assets/art/game/terrain/meadow-0-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "meadow-1-1",
+      "path": "assets/art/game/terrain/meadow-1-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "meadow-2-1",
+      "path": "assets/art/game/terrain/meadow-2-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "meadow-0-2",
+      "path": "assets/art/game/terrain/meadow-0-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "meadow-1-2",
+      "path": "assets/art/game/terrain/meadow-1-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "meadow-2-2",
+      "path": "assets/art/game/terrain/meadow-2-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        62,
+        103,
+        190,
+        231
+      ],
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "meadow-flowers-0-0",
+      "path": "assets/art/game/terrain/meadow-flowers-0-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "meadow-flowers-1-0",
+      "path": "assets/art/game/terrain/meadow-flowers-1-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "meadow-flowers-2-0",
+      "path": "assets/art/game/terrain/meadow-flowers-2-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "meadow-flowers-0-1",
+      "path": "assets/art/game/terrain/meadow-flowers-0-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "meadow-flowers-1-1",
+      "path": "assets/art/game/terrain/meadow-flowers-1-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "meadow-flowers-2-1",
+      "path": "assets/art/game/terrain/meadow-flowers-2-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "meadow-flowers-0-2",
+      "path": "assets/art/game/terrain/meadow-flowers-0-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "meadow-flowers-1-2",
+      "path": "assets/art/game/terrain/meadow-flowers-1-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "meadow-flowers-2-2",
+      "path": "assets/art/game/terrain/meadow-flowers-2-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        263,
+        103,
+        391,
+        231
+      ],
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "meadow-tufts-0-0",
+      "path": "assets/art/game/terrain/meadow-tufts-0-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "meadow-tufts-1-0",
+      "path": "assets/art/game/terrain/meadow-tufts-1-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "meadow-tufts-2-0",
+      "path": "assets/art/game/terrain/meadow-tufts-2-0.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "meadow-tufts-0-1",
+      "path": "assets/art/game/terrain/meadow-tufts-0-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "meadow-tufts-1-1",
+      "path": "assets/art/game/terrain/meadow-tufts-1-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "meadow-tufts-2-1",
+      "path": "assets/art/game/terrain/meadow-tufts-2-1.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "meadow-tufts-0-2",
+      "path": "assets/art/game/terrain/meadow-tufts-0-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "meadow-tufts-1-2",
+      "path": "assets/art/game/terrain/meadow-tufts-1-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "meadow-tufts-2-2",
+      "path": "assets/art/game/terrain/meadow-tufts-2-2.png",
+      "collides": false,
+      "terrain": "grass",
+      "sourceBounds": [
+        462,
+        103,
+        590,
+        231
+      ],
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "earth-0-0",
+      "path": "assets/art/game/terrain/earth-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "earth-1-0",
+      "path": "assets/art/game/terrain/earth-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "earth-2-0",
+      "path": "assets/art/game/terrain/earth-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "earth-0-1",
+      "path": "assets/art/game/terrain/earth-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "earth-1-1",
+      "path": "assets/art/game/terrain/earth-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "earth-2-1",
+      "path": "assets/art/game/terrain/earth-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "earth-0-2",
+      "path": "assets/art/game/terrain/earth-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "earth-1-2",
+      "path": "assets/art/game/terrain/earth-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "earth-2-2",
+      "path": "assets/art/game/terrain/earth-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceBounds": [
+        62,
+        325,
+        190,
+        453
+      ],
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-1-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-1-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 1,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-2-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-2-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 2,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-3-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-3-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 3,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-4-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-4-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 4,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-5-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-5-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 5,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-6-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-6-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 6,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-7-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-7-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 7,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-8-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-8-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 8,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-9-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-9-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 9,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-10-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-10-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 10,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-11-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-11-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 11,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-12-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-12-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 12,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-13-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-13-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 13,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-14-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-14-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 14,
+      "patch": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-0-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-0-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-1-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-1-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-2-0",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-2-0.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-0-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-0-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-1-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-1-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-2-1",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-2-1.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-0-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-0-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-1-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-1-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "grass-earth-edge-15-2-2",
+      "path": "assets/art/game/terrain/grass-earth-edge-15-2-2.png",
+      "collides": false,
+      "terrain": "dirt",
+      "sourceSwatch": "swatch-4-1",
+      "adjacency": 15,
+      "patch": [
+        2,
+        2
+      ]
+    }
+  ]
+}

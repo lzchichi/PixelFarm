@@ -1,0 +1,135 @@
+{
+  "source": {
+    "file": "像素风村庄与NPC资源图鉴.png",
+    "sha256": "6f678e42f77efadda5256095319ebe1b321578886f4f901d4a3b937fb7941755",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "npcs": {
+    "lin-seed": {
+      "frames": {
+        "down": "assets/art/game/town/lin-seed-down.png",
+        "left": "assets/art/game/town/lin-seed-left.png",
+        "right": "assets/art/game/town/lin-seed-right.png",
+        "up": "assets/art/game/town/lin-seed-up.png"
+      },
+      "frameBounds": {
+        "down": [
+          74,
+          204,
+          118,
+          272
+        ],
+        "left": [
+          74,
+          276,
+          118,
+          344
+        ],
+        "right": [
+          74,
+          341,
+          118,
+          409
+        ],
+        "up": [
+          74,
+          407,
+          118,
+          475
+        ]
+      },
+      "portrait": "assets/art/game/town/lin-seed-portrait.png",
+      "portraitBounds": [
+        16,
+        14,
+        155,
+        194
+      ]
+    },
+    "xu-carpenter": {
+      "frames": {
+        "down": "assets/art/game/town/xu-carpenter-down.png",
+        "left": "assets/art/game/town/xu-carpenter-left.png",
+        "right": "assets/art/game/town/xu-carpenter-right.png",
+        "up": "assets/art/game/town/xu-carpenter-up.png"
+      },
+      "frameBounds": {
+        "down": [
+          583,
+          204,
+          627,
+          272
+        ],
+        "left": [
+          583,
+          276,
+          627,
+          344
+        ],
+        "right": [
+          583,
+          341,
+          627,
+          409
+        ],
+        "up": [
+          583,
+          407,
+          627,
+          475
+        ]
+      },
+      "portrait": "assets/art/game/town/xu-carpenter-portrait.png",
+      "portraitBounds": [
+        546,
+        14,
+        681,
+        194
+      ]
+    },
+    "he-villager": {
+      "frames": {
+        "down": "assets/art/game/town/he-villager-down.png",
+        "left": "assets/art/game/town/he-villager-left.png",
+        "right": "assets/art/game/town/he-villager-right.png",
+        "up": "assets/art/game/town/he-villager-up.png"
+      },
+      "frameBounds": {
+        "down": [
+          1115,
+          204,
+          1159,
+          272
+        ],
+        "left": [
+          1115,
+          276,
+          1159,
+          344
+        ],
+        "right": [
+          1115,
+          341,
+          1159,
+          409
+        ],
+        "up": [
+          1115,
+          407,
+          1159,
+          475
+        ]
+      },
+      "portrait": "assets/art/game/town/he-villager-portrait.png",
+      "portraitBounds": [
+        1074,
+        14,
+        1208,
+        194
+      ]
+    }
+  }
+}
